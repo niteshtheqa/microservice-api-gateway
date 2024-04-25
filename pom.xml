@@ -56,12 +56,16 @@
 			<artifactId>netty-all</artifactId>
 		</dependency>
 		<dependency>
-        <groupId>io.netty</groupId>
-        <artifactId>netty-resolver-dns-native-macos</artifactId>
-        <scope>runtime</scope>
-        <classifier>osx-x86_64</classifier>
-        <version>4.1.59.Final</version>
-    </dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-resolver-dns-native-macos</artifactId>
+			<scope>runtime</scope>
+			<classifier>osx-x86_64</classifier>
+			<version>4.1.59.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
