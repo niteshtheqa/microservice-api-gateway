@@ -48,4 +48,4 @@ RUN mvn clean package -Dmaven.test.skip=true
 EXPOSE 8080
 
 # Run the API gateway
-CMD ["java", "-jar", "target/api-gateway.jar"]
+CMD ["java", "-jar", "target/ApiGateway-0.0.1-SNAPSHOT.jar"]

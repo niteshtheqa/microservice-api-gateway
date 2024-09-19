@@ -7,7 +7,7 @@ spring:
     name: APIGATEWAY
 
   config:
-    import: configserver:http://localhost:8085/
+    import: configserver:http://localhost:8888/
 
 
   cloud:
